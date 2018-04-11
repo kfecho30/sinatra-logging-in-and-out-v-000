@@ -21,8 +21,7 @@ class ApplicationController < Sinatra::Base
     end
   end
 
-  get '/account' do
-    @user = User.find(session[:user_id])
+  get '/account' dox
     erb :account
   end
 
