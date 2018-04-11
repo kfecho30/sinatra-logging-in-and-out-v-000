@@ -26,6 +26,7 @@ class ApplicationController < Sinatra::Base
       @user = Helpers.current_user(session)
       erb :account
     else
+      binding.pry
       erb :error
     end
   end
