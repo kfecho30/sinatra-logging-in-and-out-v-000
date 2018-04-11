@@ -21,7 +21,7 @@ class ApplicationController < Sinatra::Base
     end
   end
 
-  get '/account' dox
+  get '/account' do
     erb :account
   end
 
